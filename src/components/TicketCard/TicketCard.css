@@ -1,0 +1,85 @@
+.ticket-card {
+  background: white;
+  border-radius: 8px;
+  padding: 12px;
+  margin-bottom: 12px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e6e7eb;
+}
+
+.ticket-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.ticket-id {
+  color: #8D8D8D;
+  font-size: 14px;
+}
+
+.ticket-title h3 {
+  font-size: 15px;
+  font-weight: 500;
+  margin: 0;
+  color: #373737;
+}
+
+.ticket-footer {
+  display: flex;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.tag {
+  display: flex;
+  align-items: center;
+  padding: 4px 8px;
+  border-radius: 4px;
+  border: 1px solid #e6e7eb;
+  font-size: 12px;
+}
+
+.priority-tag img {
+  width: 16px;
+  height: 16px;
+}
+
+.feature-tag {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.tag-dot {
+  width: 8px;
+  height: 8px;
+  background: #bec2c8;
+  border-radius: 50%;
+}
+
+.user-avatar {
+  position: relative;
+}
+
+.avatar-img {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+}
+
+.availability-status {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #ddd;
+  border: 2px solid white;
+}
+
+.availability-status.available {
+  background: #00b341;
+} 

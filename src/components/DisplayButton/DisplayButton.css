@@ -1,0 +1,49 @@
+.display-button-container {
+  position: relative;
+  display: inline-block;
+}
+
+.display-button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 12px;
+  background: white;
+  border: 1px solid #e6e7eb;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  margin-top: 8px;
+  background: white;
+  border: 1px solid #e6e7eb;
+  border-radius: 8px;
+  padding: 16px;
+  min-width: 240px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.dropdown-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.label {
+  color: #6b6f76;
+  font-size: 14px;
+}
+
+.select-input {
+  padding: 4px 8px;
+  border: 1px solid #e6e7eb;
+  border-radius: 4px;
+  font-size: 14px;
+  min-width: 120px;
+} 
